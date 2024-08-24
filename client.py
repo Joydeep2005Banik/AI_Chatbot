@@ -1,7 +1,7 @@
 from ai21 import AI21Client
 from ai21.models.chat import UserMessage
 
-client = AI21Client(api_key="78Qlsf3v7nK7nWydYBGPtxiYDc4S1Qfm")
+client = AI21Client(api_key="<Your API Key>")
 
 copied_text = """[10:05 pm, 22/8/2024] Sohini Bose: 🙂
 [10:05 pm, 22/8/2024] Sohini Bose: Kintu ma'am i bollo khub simple na korte
