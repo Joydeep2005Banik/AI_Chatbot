@@ -13,7 +13,7 @@ def is_whatsapp_active():
     active_window = gw.getActiveWindow()
     return "WhatsApp" in (active_window.title if active_window else "")
 
-client = AI21Client(api_key="78Qlsf3v7nK7nWydYBGPtxiYDc4S1Qfm")
+client = AI21Client(api_key="<Your API Key>")
 
 def analyze_and_reply(output_text):
     """
